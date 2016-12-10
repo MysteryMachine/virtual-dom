@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Raleway');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f74cd5;
+    color: white;
+    font-size: 20px;
+}
+
+h1{
+    font-family: 'Bungee Inline', cursive;
+    font-size: 4em;
+    text-align: center;
+    text-color: 0;
+}
+
+h2{
+    text-align: center;
+}
+
+#virtual-dom-outer{
+    padding: 0;
+    margin: 0 20%;
+}
+
+.virtual-dom-inner{
+    
+}
+
+p{
+    padding-top: 20px;
+}
+
+ul{
+    padding: 10px 0 0 0;
+    list-style: none;
+}
+
+li{
+    padding-bottom: 4px;
+    line-height: 2;
+}
+
+.heart-flex{
+    display: flex;
+}
+
+.heart:before {
+    content: "\2665";
+    color: white;
+}
+
+.heart{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+button.redo{
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    background-color: #db08bb;
+    border-radius: 100px;
+    width: 200px;
+    font-size: 1.2em;
+    padding: 16px;
+    color: white;
+    margin: 0 auto;
+    display: block;
+}
+
+button.redo:active,
+button.redo:focus{
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+button.redo:active{
+  background-color: #cb07ab;
+}
+
+div.redo-outer{
+    width: 100%;
+    padding-top: 40px;
+}
