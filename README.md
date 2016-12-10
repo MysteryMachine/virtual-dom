@@ -57,7 +57,7 @@ to explore with other people.
 
 ## How to Define a Grammar
 
-Virtual DOM grammars are defined in (edn)[https://github.com/edn-format/edn].
+Virtual DOM grammars are defined in [edn](https://github.com/edn-format/edn).
 
 The grammar is relatively simple.
 
