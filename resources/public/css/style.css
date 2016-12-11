@@ -1,19 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
-body{
+body, textarea{
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f74cd5;
+    background-color: #c74ca5;
     color: white;
     font-size: 20px;
 }
 
 h1{
     font-family: 'Bungee Inline', cursive;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     text-color: 0;
+    margin: 1em 0;
+}
+
+@media(max-width: 750px){
+    body,textarea{
+        font-size: 12px;
+    }
+    h1{
+        margin-bottom: 1em 0;
+        line-height: 1;
+    }
 }
 
 h2{
@@ -25,8 +37,8 @@ h2{
     margin: 0 20%;
 }
 
-.virtual-dom-inner{
-    
+.virtual-dom-inner ul{
+    font-size: 1.2em;
 }
 
 p{
@@ -57,33 +69,133 @@ li{
     padding-right: 20px;
 }
 
-button.redo{
+.buttons{
+    margin-top: 4em;
+}
+
+button.bottom{
     border-width: 2px;
     border-style: solid;
     border-color: white;
-    background-color: #db08bb;
+    background-color: #c74ca5;
     border-radius: 100px;
     width: 200px;
-    font-size: 1.2em;
+    font-size: 1em;
     padding: 16px;
     color: white;
-    margin: 0 auto;
-    display: block;
 }
 
-button.redo:active,
-button.redo:focus{
-  background-image: none;
-  outline: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-
-button.redo:active{
-  background-color: #cb07ab;
-}
-
-div.redo-outer{
+p.message{
+    margin: 0.825em 0 0 0;
+    text-align: center;
     width: 100%;
-    padding-top: 40px;
+}
+
+@media(max-width: 600px){
+    .buttons{
+        width: 100%;
+        margin: 4em 0 0 0;
+    }
+
+    button.bottom{
+        margin: 0 auto;
+        display: block;
+    }
+
+    .buttons button.bottom:first-child{
+        margin-bottom: 30px;
+    }
+}
+
+@media(min-width: 600px){
+    .buttons{
+        width: 430px;
+        margin: 4em auto 0 auto;
+    }
+
+    button.bottom{
+        display: inline-block;
+    }
+
+    .buttons button.bottom:first-child{
+        margin-right: 30px;
+    }
+
+    .buttons button.bottom:last-child{
+        margin-right: 0px;
+    }
+}
+
+button.bottom:active,
+button.bottom:hover,
+button.bottom:focus{
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+button.bottom:hover{
+    background-color: #d552b2;
+}
+
+button.bottom:active{
+    background-color: #b63898;
+}
+
+div.buttons.message {
+    margin-top: 1em;
+}
+
+
+textarea.code{
+    margin: 20px -20px;
+    width: 100%;
+    color: black;
+    background-color: white;
+    height: 600px;
+    border-radius: 20px;
+    border-width: 20px;
+    resize: none;
+    font-size: 14px;
+    font-family: 'Source Code Pro', monospaced;
+}
+
+textarea.code,
+textarea.code:focus,
+textarea.code:active{
+    border-color: white;
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+@media(max-height: 1000px){
+    textarea.code{
+        height: 400px;
+    }
+}
+
+@media(max-height: 800px){
+    textarea.code{
+        height: 200px;
+    }
+}
+
+.readme{
+    text-align: center;
+}
+
+@media (min-height: 1024px){
+    .readme{
+        position: fixed;
+        bottom: 10px;
+        left: 0;
+        width: 100%;
+    }
+}
+
+a, a:visited{
+    color: white;
 }
