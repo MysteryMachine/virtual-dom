@@ -119,7 +119,7 @@ Having some way to save different languages would probably be nice.
 
 ## Contact Me
 
-I created this app under the lens of a kinky, pansexual, monoamorous, white male. As such, I do not
+I created this app through the perspective of an able bodied, tech-saavy, pansexual, monoamorous, white male. As such, I do not
 have a complete perspective on this work. If you have feature requests that would better facilitate 
 your usage of this app, or if you have comments on undesirable or problematic aspects of the work,
 please feel free to open a pull request or report a problem. From there, if you'd like to move to
