@@ -1,6 +1,6 @@
 (defproject virtual-dom "0.1.0-SNAPSHOT"
-  :description "FIXME: write this!"
-  :url "http://example.com/FIXME"
+  :description "A program that attempts to explore consent through the lens of computer language"
+  :url "http://sisyphus.rocks/virtual-dom"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 

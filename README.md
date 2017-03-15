@@ -1,11 +1,11 @@
 # Virtual DOM
 
-Virtual DOM is a a program that attempts to explore consent through the lens of computer language.
+Virtual DOM is a program that attempts to explore consent through the lens of computer language.
 
 ## A Small Warning
 
-The files contained within the project may or may not be safe for work viewing. Please 
-ensure you are in a place where sexually explict language is ok before perusing this project.
+The files contained within the project may or may not be safe for work viewing. Please
+ensure you are in a place where sexually explicit language is ok before perusing this project.
 I have attempted to keep this read-me as academic as possible, but please be careful, some
 suggestive language is definitely contained inside.
 
@@ -31,15 +31,15 @@ The Virtual DOM is merely intended to lead play.
 This project was created to give people a private and controlled way to explore the concept of
 consent. The idea was to create a virtual dominant, a computer program that could take the role
 of directing play. Before running the computer program, the user defines a
-grammar, a set of rules that determine a set of possibilities for how their session will 
+grammar, a set of rules that determine a set of possibilities for how their session will
 proceed. This grammar is non-deterministic, and it can produce a number of different scenarios.
 
-The intent is, that a user will come in, and spend some time learning how to define a grammar. 
+The intent is, that a user will come in, and spend some time learning how to define a grammar.
 A sample grammar is provided, that provides the user some basic instructions on having a cuddling
 session with a plush toy. The user is then free to start editing that grammar, testing it, playing
 with it, and defining it further. This is the user discussing consent with oneself. It is intended
 to be a empowering activity, where, despite the computer program being responsible for deciding
-how choices play out, the user is ultimately responsible for their own experience. 
+how choices play out, the user is ultimately responsible for their own experience.
 
 The act of defining a computer language for this is much more difficult than the act of describing
 what one actually likes in real life scenarios. This is intentional. It is my hope that the act
@@ -67,7 +67,7 @@ The grammar is relatively simple.
 * `[]` implies and. For example, `["a " "b " "c"]` becomes the text _a b c_ on the page.
 * `()` implies or. For example, `("foo", "bar", "baz")` becomes can become to _foo_ or _bar_ or _baz_ on the page.
   This is randomly selected.
-* Keywords imply a look up. For example, `{:-> [:hello-world], :hello-world "Hello World"}` expands to 
+* Keywords imply a look up. For example, `{:-> [:hello-world], :hello-world "Hello World"}` expands to
   _Hello World_. If the Virtual DOM encounters a keyword, it will check the base grammar for it.
 
 Here is an example grammar, and some of the paths it can go down.
@@ -120,7 +120,7 @@ Having some way to save different languages would probably be nice.
 ## Contact Me
 
 I created this app through the perspective of an able bodied, tech-saavy, pansexual, monoamorous, white male. As such, I do not
-have a complete perspective on this work. If you have feature requests that would better facilitate 
+have a complete perspective on this work. If you have feature requests that would better facilitate
 your usage of this app, or if you have comments on undesirable or problematic aspects of the work,
 please feel free to open a pull request or report a problem. From there, if you'd like to move to
 email or some other private channel, I'd be happy to.
