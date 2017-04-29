@@ -166,7 +166,7 @@ textarea.code {
     resize: none;
     font-size: 14px;
     font-family: 'Source Code Pro', monospaced;
-    color: black;
+    color: #000000;
     margin: 20px auto;
 }
 
