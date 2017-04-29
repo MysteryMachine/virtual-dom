@@ -1,145 +1,150 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Raleway');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
-
-body, textarea{
+body,
+textarea {
+    background-color: #c74ca5;
     font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
     margin: 0;
     padding: 0;
-    background-color: #c74ca5;
-    color: white;
-    font-size: 20px;
 }
 
-h1{
+h1 {
     font-family: 'Bungee Inline', cursive;
     font-size: 3em;
     text-align: center;
     text-color: 0;
-    margin: 1em 0;
+    margin: 40px 0;
 }
 
-@media(max-width: 750px){
-    body,textarea{
+@media(max-width: 750px) {
+    body,
+    textarea {
         font-size: 12px;
     }
-    h1{
-        margin-bottom: 1em 0;
-        line-height: 1;
+    h1 {
+        line-height: 1.2;
+        margin: 20px 0;
     }
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
-#virtual-dom-outer{
+>div {
+    margin-bottom: 20px;
+}
+
+#virtual-dom-outer {
     padding: 0;
     margin: 0 20%;
 }
 
-.virtual-dom-inner ul{
+.virtual-dom-inner ul {
     font-size: 1.2em;
 }
 
-p{
+p {
     padding-top: 20px;
 }
 
-ul{
-    padding: 10px 0 0 0;
+ul {
     list-style: none;
+    padding: 10px 0 0 0;
 }
 
-li{
-    padding-bottom: 4px;
+li {
     line-height: 2;
+    padding-bottom: 10px;
 }
 
-.heart-flex{
+a,
+a:visited {
+    color: #ffffff;
+}
+
+.heart-flex {
     display: flex;
 }
 
 .heart:before {
     content: "\2665";
-    color: white;
+    color: #ffffff;
 }
 
-.heart{
+.heart {
     display: inline-block;
     padding-right: 20px;
 }
 
-.buttons{
+.buttons {
     margin-top: 4em;
 }
 
-button.bottom{
+button.bottom {
+    width: 200px;
     border-width: 2px;
     border-style: solid;
-    border-color: white;
+    border-color: #ffffff;
     background-color: #c74ca5;
     border-radius: 100px;
-    width: 200px;
     font-size: 1em;
+    color: #ffffff;
     padding: 16px;
-    color: white;
 }
 
-p.message{
-    margin: 0.825em 0 0 0;
-    text-align: center;
+p.message {
     width: 100%;
+    text-align: center;
+    margin: 0.825em 0 0 0;
 }
 
-@media(max-width: 600px){
-    .buttons{
+@media(max-width: 600px) {
+    .buttons {
         width: 100%;
         margin: 4em 0 0 0;
     }
-
-    button.bottom{
-        margin: 0 auto;
+    button.bottom {
         display: block;
+        margin: 0 auto;
     }
-
-    .buttons button.bottom:first-child{
+    .buttons button.bottom:first-child {
         margin-bottom: 30px;
     }
 }
 
-@media(min-width: 600px){
-    .buttons{
+@media(min-width: 600px) {
+    .buttons {
         width: 430px;
         margin: 4em auto 0 auto;
     }
-
-    button.bottom{
+    button.bottom {
         display: inline-block;
     }
-
-    .buttons button.bottom:first-child{
+    .buttons button.bottom:first-child {
         margin-right: 30px;
     }
-
-    .buttons button.bottom:last-child{
+    .buttons button.bottom:last-child {
         margin-right: 0px;
     }
 }
 
 button.bottom:active,
 button.bottom:hover,
-button.bottom:focus{
+button.bottom:focus {
     background-image: none;
     outline: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 
-button.bottom:hover{
+button.bottom:hover {
     background-color: #d552b2;
 }
 
-button.bottom:active{
+button.bottom:active {
     background-color: #b63898;
 }
 
@@ -147,55 +152,55 @@ div.buttons.message {
     margin-top: 1em;
 }
 
+div.code-container {
+    display: flex;
+}
 
-textarea.code{
-    margin: 20px -20px;
+textarea.code {
     width: 100%;
-    color: black;
-    background-color: white;
     height: 600px;
+    background-color: #ffffff;
     border-radius: 20px;
     border-width: 20px;
+    border-style: solid;
     resize: none;
     font-size: 14px;
     font-family: 'Source Code Pro', monospaced;
+    color: #000000;
+    margin: 20px auto;
 }
 
 textarea.code,
 textarea.code:focus,
-textarea.code:active{
-    border-color: white;
+textarea.code:active {
+    border-color: #ffffff;
     background-image: none;
     outline: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 
-@media(max-height: 1000px){
-    textarea.code{
+@media(max-height: 1000px) {
+    textarea.code {
         height: 400px;
     }
 }
 
-@media(max-height: 800px){
-    textarea.code{
+@media(max-height: 800px) {
+    textarea.code {
         height: 200px;
     }
 }
 
-.readme{
+.readme {
     text-align: center;
 }
 
-@media (min-height: 1024px){
-    .readme{
+@media (min-height: 1024px) {
+    .readme {
         position: fixed;
         bottom: 10px;
         left: 0;
         width: 100%;
     }
-}
-
-a, a:visited{
-    color: white;
 }
